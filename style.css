@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6.5vh;
+}
+
+header a svg {
+    margin-left: 20%;
+    color: black;
+    width: 180px;
+}
+
+#nav a{
+    padding-left: 35px; 
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+#menu a {  
+    margin-right: 2vw;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+#wrap {
+    margin-left: 28px;
+}
+
+#title {
+    margin-top: 17vh;  
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    position: fixed;
+    flex-direction: column;
+    width: 25vw;
+    height: 8vh;
+    margin-left: 35vw;
+}
+
+#title a {
+    color: black;
+}
+
+#title p {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#btn {
+    width: 650px;
+    margin-top: 85vh;
+    margin-left: 35vw;
+    position: fixed;
+    height: 100px;
+}
+
+#btns {
+    margin-left: calc(30% - 200px);
+}
+
+#btns button {
+    border-radius: 20px;
+    border: none;
+    background-color: #171a20cc;
+    color: white;
+    width: 300px;
+    height: 45px;
+}
+
+
+#btns button:nth-child(2) {
+    background-color: #f4f4f4a6;
+    color: black;
+    margin-left: 30px;
+}
+
+
+#FuncMenu {      /* mudar isso depois */
+    display: none;
+}
+
+#MenuList {
+    margin-top: -7vh;
+    height: 100vh;
+    width: 60vw;
+    background-color: #FFFFFF;
+}
+
+#fechar{
+    margin-left: 50vw;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 28px;
+    padding: 20px 0px;
+}
+
+#MenuList ul {
+    list-style: none;
+    padding: 50px;
+}
+
+
+#MenuList li {
+    font-size: 17px;
+    margin-bottom: 2vh;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+  
+section {
+    height: 100vh;  
+}
+
+#img_Model-3{
+    background-size: cover;
+    background-position: center;
+    background-image: url("imgs/Model-3.jpg");
+}
+
+#img_Model-y{
+    background-size: cover;
+    background-position: center;
+    background-image: url("imgs/Model-y.jpg");
+}
+#img_Model-s{
+    background-size: cover;
+    background-position: center;
+    background-image: url("imgs/Model-s.jpg");
+}
+#img_Model-x{
+    background-size: cover;
+    background-position: center;
+    background-image: url("imgs/Model-x.jpg");
+}
+#img_Solar-panels{
+    background-size: cover;
+    background-position: center;
+    background-image: url("imgs/Solar_Panels.jpg");
+}
+
+#img_Solar-roof{
+    background-size: cover;
+    background-position: center;
+    background-image: url("imgs/Solar_Roof.jpg");
+}
+
+#img_Acessories{
+    background-size: cover;
+    background-position: center;
+    background-image: url("imgs/Accessories.jpg");
+}
+
